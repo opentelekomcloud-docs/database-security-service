@@ -32,9 +32,9 @@ otcdocs_repo_name = 'opentelekomcloud-docs/database-security-service'
 
 # Those variables are needed for indexing into OpenSearch
 otcdocs_doc_environment = 'public'
-otcdocs_doc_link = '/database-security-service/umn/'
-otcdocs_doc_title = 'User Guide'
-otcdocs_doc_type = 'umn'
+otcdocs_doc_link = '/database-security-service/api-ref/'
+otcdocs_doc_title = 'API Reference'
+otcdocs_doc_type = 'api-ref'
 otcdocs_service_category = 'security-services'
 otcdocs_service_title = 'Database Security Service'
 otcdocs_service_type = 'dbss'
@@ -94,7 +94,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "Database Security Service - User Guide"
+html_title = "Database Security Service - API Reference"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -109,8 +109,8 @@ html_copy_source = False
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
     ('index',
-     'dbss-umn.tex',
-    u'Database Security Service - User Guide',
+     'dbss-api-ref.tex',
+    u'Database Security Service - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 
