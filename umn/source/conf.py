@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'dbss-umn.tex',
-     u'Database Security Service - User Guide',
+    u'Database Security Service - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 
