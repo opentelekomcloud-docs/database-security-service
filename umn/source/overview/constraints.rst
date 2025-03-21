@@ -12,22 +12,35 @@ Supported Database Types
 
 The following types of databases on the management console can be audited in out-of-path mode:
 
--  RDS instances
+-  Relational Database Service (RDS)
 -  Databases built on ECS
 -  Databases built on BMS
 
-Supported Database Versions
----------------------------
+Databases That Need Agents
+--------------------------
 
 The following database versions can be audited.
 
 .. table:: **Table 1** Database types and versions supported by database audit
 
-   ================== =========
-   Database Type      Edition
-   ================== =========
-   GaussDB(for MYSQL) MYSQL 8.0
-   ================== =========
+   +-----------------------------------+----------------------------------------+
+   | Database Type                     | Edition                                |
+   +===================================+========================================+
+   | GaussDB(for MYSQL)                | MYSQL 8.0                              |
+   +-----------------------------------+----------------------------------------+
+   | RDS for MySQL                     | -  5.6 (5.6.51.1 or later)             |
+   |                                   | -  5.7 (5.7.29.2 or later)             |
+   |                                   | -  8.0 (8.0.20.3 or later)             |
+   +-----------------------------------+----------------------------------------+
+   | PostgreSQL                        | -  14 (14.4 or later)                  |
+   |                                   | -  13 (13.6 or later)                  |
+   |                                   | -  12 (12.10 or later)                 |
+   |                                   | -  11 (11.15 or later)                 |
+   |                                   | -  9.6 (9.6.24 or later)               |
+   |                                   | -  9.5 (9.5.25 or later)               |
+   +-----------------------------------+----------------------------------------+
+   | SQLServer                         | All editions are supported by default. |
+   +-----------------------------------+----------------------------------------+
 
 Supported OSs
 -------------
@@ -82,3 +95,4 @@ Other Constraints
 -----------------
 
 -  If SSL is enabled for a database, the database cannot be audited. To use database audit, disable SSL first.
+-  In some SQL Server databases, complex **declare** statements, **select** functions, and symbol statements that cannot be identified by the system may fail to be parsed.

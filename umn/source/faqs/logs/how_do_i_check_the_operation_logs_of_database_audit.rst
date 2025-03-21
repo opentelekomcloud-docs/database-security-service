@@ -7,11 +7,19 @@ How Do I Check the Operation Logs of Database Audit?
 
 To check the operation logs of database audit, perform the following steps:
 
+#. Log in to the management console.
+
+#. In the navigation tree on the left, choose **Instances**.
+
+#. Click the name of the instance whose operation logs you want to view. The **Overview** page is displayed.
+
+#. Click the **Logs** tab. The log list page is displayed.
+
 #. View operation logs. For details about related parameters, see :ref:`Table 1 <dbss_01_0309__dbss_01_0209_table4295843716304>`.
 
    .. note::
 
-      Select **Last 30 minutes**, **1 hour**, **24 hours**, **7 days**, or **30 days**, or click |image1| to set start time and end time to view the operation logs of a specified time range.
+      You can select last 30 minutes, last 1 hour, 24 hours, last 7 days, last 30 days, or a custom time range.
 
    .. _dbss_01_0309__dbss_01_0209_table4295843716304:
 
@@ -28,5 +36,3 @@ To check the operation logs of database audit, perform the following steps:
       Description      Description of the operation
       Result           Result of the operation
       ================ =====================================
-
-.. |image1| image:: /_static/images/en-us_image_0000001148028318.png

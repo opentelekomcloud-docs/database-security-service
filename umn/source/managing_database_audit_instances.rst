@@ -13,6 +13,10 @@ Prerequisites
 Viewing the Instance
 --------------------
 
+#. Log in to the management console.
+
+#. In the navigation tree on the left, choose **Instances**.
+
 #. View the database audit instances information. For details about related parameters, see :ref:`Table 1 <dbss_01_0213__table1025994517211>`.
 
 
@@ -37,18 +41,12 @@ Viewing the Instance
       +--------------------------------------+--------------------------------------------------------------------------------------------------+
       | Specifications                       | Edition of an instance                                                                           |
       +--------------------------------------+--------------------------------------------------------------------------------------------------+
+      | Version                              | Version of database audit instance                                                               |
+      +--------------------------------------+--------------------------------------------------------------------------------------------------+
       | Status                               | Running status of an instance. The options are as follows:                                       |
       |                                      |                                                                                                  |
       |                                      | -  **Running**                                                                                   |
-      |                                      | -  **Creating**                                                                                  |
-      |                                      | -  **Faulty**                                                                                    |
       |                                      | -  **Disabled**                                                                                  |
-      |                                      | -  **Frozen**                                                                                    |
-      |                                      | -  **Frozen for legal management**                                                               |
-      |                                      | -  **Frozen due to abuse**                                                                       |
-      |                                      | -  **Frozen due to lack of identity verification**                                               |
-      |                                      | -  **Frozen for partnership**                                                                    |
-      |                                      | -  **Creation failed**                                                                           |
       +--------------------------------------+--------------------------------------------------------------------------------------------------+
       | Associated Databases/Total Databases | Number of databases an instance has associated with and Number of databases an instance supports |
       +--------------------------------------+--------------------------------------------------------------------------------------------------+

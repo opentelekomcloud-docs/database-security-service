@@ -16,6 +16,9 @@ Prerequisites
 Viewing a Report
 ----------------
 
+#. Log in to the management console.
+#. In the navigation tree on the left, choose **Reports**.
+#. In the **Instance** drop-down list, select the instance whose report information you want to view.
 #. Viewing reports
 
    .. note::
@@ -27,7 +30,11 @@ Viewing a Report
 Viewing a Report Template
 -------------------------
 
-#. View the report template information.
+#. Log in to the management console.
+#. In the navigation tree on the left, choose **Reports**.
+#. In the **Instance** drop-down list, select the instance whose report template you want to view.
+#. Click the **Report Management** tab.
+#. View the report template.
 
    .. note::
 

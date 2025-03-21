@@ -5,7 +5,7 @@
 Viewing the Audit Dashboard
 ===========================
 
-After connecting the database to the database audit instance, view the audit statistics, including the overall audit statistics, risk distribution, session statistics, and SQL distribution.
+After connecting the database to the database audit instance, view the audit statistics, including the database audit information, instance information, and data analysis information.
 
 Prerequisites
 -------------
@@ -19,8 +19,6 @@ Procedure
 #. Log in to the management console.
 
 #. Select a region, click |image1|, and choose **Security** > **Database Security Service**. The **Dashboard** page is displayed.
-
-#. In the navigation tree on the left, choose **Data Reports**. The **Data Reports** page is displayed.
 
 #. In the **Instance** drop-down list, select the instance whose audit information you want to view.
 

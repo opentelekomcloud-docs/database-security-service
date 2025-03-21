@@ -18,7 +18,7 @@ Enabling Database Audit
 
 #. Select a database audit instance from the **Instance** drop-down list.
 
-#. In the database list, click **Enable** in the **Operation** column of the database to be audited.
+#. In the database list, click **Enable** in the **Operation** column of the database you want to audit.
 
    The **Audit Status** of the database is **Enabled**. You do not need to restart the database.
 
@@ -31,24 +31,14 @@ Enabling Database Audit
 Verifying Audit Results
 -----------------------
 
-#. .. _dbss_01_0356__li0294761612:
-
-   Run an SQL statement (for example, **show databases**) in the target database.
-
+#. Run an SQL statement (for example, **show databases**) in the target database.
 #. Log in to the management console.
-
 #. Select a region, click |image2|, and choose **Security** > **Database Security Service**. The database audit service page is displayed.
-
 #. In the left navigation pane, choose **Dashboard**.
-
 #. In the navigation tree on the left, choose **Data Reports**. The **Data Reports** page is displayed.
-
 #. In the **Instance** drop-down list, select the instance that audits the target database.
-
 #. Click the **Statements** tab.
-
-#. Click |image3| next to **Time** to set the start and end time, and click **Submit**. The SQL statements entered in :ref:`1 <dbss_01_0356__li0294761612>` will be displayed.
+#. Set the start and end time, and click **Submit**.
 
 .. |image1| image:: /_static/images/en-us_image_0000001090901115.png
 .. |image2| image:: /_static/images/en-us_image_0000001385655312.png
-.. |image3| image:: /_static/images/en-us_image_0000001088625651.png

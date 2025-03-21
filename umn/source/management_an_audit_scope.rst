@@ -22,6 +22,12 @@ By default, database audit complies with a **full audit rule**, which is used to
 Viewing the Audit Scope
 -----------------------
 
+#. Log in to the management console.
+
+#. In the navigation tree, choose **Rules**.
+
+#. In the **Instance** drop-down list, select an instance to view audit scope.
+
 #. View the audit scope information. For details about related parameters, see :ref:`Table 1 <dbss_01_0200__table964761214306>`.
 
 

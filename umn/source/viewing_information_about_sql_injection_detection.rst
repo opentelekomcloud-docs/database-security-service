@@ -15,9 +15,14 @@ Prerequisites
 Procedure
 ---------
 
-#. View information about SQL injection detection, as shown in :ref:`Figure 1 <dbss_01_0207__fig71914515113>`. For details about related parameters, see :ref:`Table 1 <dbss_01_0207__table964761214306>`.
+#. Log in to the management console.
 
-   .. _dbss_01_0207__fig71914515113:
+#. In the navigation tree, choose **Audit Rules**.
+
+#. In the **Instance** drop-down list, select the instance for which you want to view SQL injection detection. Click the **SQL Injection** tab.
+
+#. View information about SQL injection detection. For details about related parameters, see :ref:`Table 1 <dbss_01_0207__table964761214306>`.
+
 
    .. figure:: /_static/images/en-us_image_0000001523031304.png
       :alt: **Figure 1** Viewing information about the SQL injection detection

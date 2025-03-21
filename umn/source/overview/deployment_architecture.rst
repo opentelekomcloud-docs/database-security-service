@@ -7,9 +7,6 @@ Deployment Architecture
 
 Database audit is deployed in out-of-path pattern. It can audit databases built on ECS, BMS and RDS on the management console.
 
-:ref:`Figure 1 <dbss_01_0181__fig87561152182512>` shows the database audit deployment architecture.
-
-.. _dbss_01_0181__fig87561152182512:
 
 .. figure:: /_static/images/en-us_image_0273147489.png
    :alt: **Figure 1** Database audit deployment architecture

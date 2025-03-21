@@ -5,7 +5,7 @@
 Adding Audit Scope
 ==================
 
-By default, database audit complies with a full audit rule, which is used to audit all databases that are successfully connected to database audit. You can also add audit scope and specify the databases to be audited.
+By default, database audit complies with a full audit rule, which is used to audit all databases that are connected to the database audit instance. You can also add audit scope and specify the databases to be audited.
 
 .. important::
 
@@ -25,7 +25,7 @@ Procedure
 
 #. Select a region, click |image1|, and choose **Security** > **Database Security Service**. The **Dashboard** page is displayed.
 
-#. In the navigation tree, choose **Rules**.
+#. In the navigation tree on the left, choose **Rules**.
 
 #. In the **Instance** drop-down list, select an instance to add audit scope.
 
@@ -71,6 +71,8 @@ Procedure
       |                       |    If an IP address is set as both a source and an exception IP address, the IP address will not be audited.                       |                       |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Source IP Address     | (Optional) IP address or IP address range used for accessing the database to be audited                                            | ``-``                 |
+      |                       |                                                                                                                                    |                       |
+      |                       | The IP address must be an internal IP address in IPv4 or IPv6 format.                                                              |                       |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Source Port           | (Optional) Port number used for accessing the database to be audited                                                               | ``-``                 |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+-----------------------+

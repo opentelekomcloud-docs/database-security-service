@@ -21,7 +21,7 @@ Procedure
 
 #. Select a region, click |image1|, and choose **Security** > **Database Security Service**. The **Dashboard** page is displayed.
 
-#. In the upper right corner, click **Apply for Database Audit**.
+#. In the upper right corner of the page, click **Apply for Database Audit**.
 
 #. On the **Apply for Database Audit** page, select an **AZ** and a **Type**.
 

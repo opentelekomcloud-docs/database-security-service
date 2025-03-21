@@ -5,4 +5,8 @@
 Why I Cannot Preview the Database Security Audit Report Online?
 ===============================================================
 
-To preview a report online, use Google Chrome or Mozilla FireFox.
+Before previewing or downloading an audit report, ensure that its **Status** is **100%**.
+
+.. important::
+
+   To preview a report online, use Google Chrome or Mozilla FireFox.

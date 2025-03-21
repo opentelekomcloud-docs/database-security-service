@@ -15,9 +15,14 @@ You have applied for a database audit instance and the **Status** is **Running**
 Procedure
 ---------
 
-#. View the basic information, network settings, and associated databases about the instance. See :ref:`Figure 1 <dbss_01_0203__fig1428710201627>`. For details about related parameters, see :ref:`Table 1 <dbss_01_0203__table9339755215>`.
+#. Log in to the management console.
 
-   .. _dbss_01_0203__fig1428710201627:
+#. In the navigation tree on the left, choose **Instances**.
+
+#. Click the name of the instance whose information you want to view. The **Overview** page is displayed.
+
+#. View the basic information, network settings, and associated databases about the instance. For details about related parameters, see :ref:`Table 1 <dbss_01_0203__table9339755215>`.
+
 
    .. figure:: /_static/images/en-us_image_0000001530573878.png
       :alt: **Figure 1** Viewing the instance overview
@@ -36,15 +41,7 @@ Procedure
       |                       | Status                | Running status of an instance. The options are as follows:                                                                                   |
       |                       |                       |                                                                                                                                              |
       |                       |                       | -  **Running**                                                                                                                               |
-      |                       |                       | -  **Creating**                                                                                                                              |
-      |                       |                       | -  **Faulty**                                                                                                                                |
       |                       |                       | -  **Disabled**                                                                                                                              |
-      |                       |                       | -  **Frozen**                                                                                                                                |
-      |                       |                       | -  **Frozen for legal management**                                                                                                           |
-      |                       |                       | -  **Frozen due to abuse**                                                                                                                   |
-      |                       |                       | -  **Frozen due to lack of identity verification**                                                                                           |
-      |                       |                       | -  **Frozen for partnership**                                                                                                                |
-      |                       |                       | -  **Creation failed**                                                                                                                       |
       +-----------------------+-----------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
       |                       | ID                    | Instance ID, which is automatically generated                                                                                                |
       +-----------------------+-----------------------+----------------------------------------------------------------------------------------------------------------------------------------------+

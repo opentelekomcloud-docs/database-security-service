@@ -5,7 +5,14 @@
 How Do I Disable SSL for a Database?
 ====================================
 
-If SSL is enabled for a database, the database cannot be audited. To use database audit, disable SSL first.
+Scenario
+--------
+
+-  If you audit your database without installing the agent, you do not need to disable SSL for the database. Skip this section.
+-  If you audit your database by installing an agent, you need to disable SSL for the database. Otherwise, you cannot obtain audit data.
+
+Procedure
+---------
 
 The MySQL database client is used as an example. Perform the following steps:
 
