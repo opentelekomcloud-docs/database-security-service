@@ -17,11 +17,22 @@ Prerequisites
 Sets the Priority of the Risky Operation
 ----------------------------------------
 
-#. Locate the target risky operation, and click **Set Priority** in the **Operation** column.
+#. Log in to the management console.
+#. In the navigation tree, choose **Rules**.
+#. In the **Instance** drop-down list, select an instance to set risky operation priority. Click the **Risky Operations** tab.
+#. In the **Operation** column of the desired risky operation, click **Set Priority**.
 #. In the displayed dialog box, select a priority and click **OK**.
 
 Viewing the Risky Operation
 ---------------------------
+
+#. Log in to the management console.
+
+#. In the navigation tree, choose **Rules**.
+
+#. In the **Instance** drop-down list, select an instance to view risky operations.
+
+#. Click the **Risky Operations** tab.
 
 #. View the risky operation information. For details about related parameters, see :ref:`Table 1 <dbss_01_0201__table964761214306>`.
 

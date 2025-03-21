@@ -17,7 +17,9 @@ Prerequisites
 Procedure
 ---------
 
-#. Click the name of an instance, click the **Monitoring** tab, and then the **Alarm Monitoring** tab.
+#. Log in to the management console.
+
+#. Click the name of an instance, click the **Alarm Monitoring** tab.
 
 #. View the alarm information, as shown in :ref:`Figure 1 <dbss_01_0252__fig2691832172511>`. For details about related parameters, see :ref:`Table 1 <dbss_01_0252__table1025994517211>`.
 
@@ -39,7 +41,7 @@ Procedure
       +-----------------------------------+-------------------------------------------------------------------------------------------------------------+
       | Type                              | Alarm type. The options are as follows:                                                                     |
       |                                   |                                                                                                             |
-      |                                   | -  Risky operations                                                                                         |
+      |                                   | -  Audit traffic exceeds threshold                                                                          |
       |                                   | -  CPU exceptions                                                                                           |
       |                                   | -  Memory exceptions                                                                                        |
       |                                   | -  Disk exceptions                                                                                          |
@@ -62,7 +64,7 @@ Procedure
 
    To query specified alarms, perform the following steps:
 
-   -  Select **Last 30 minutes**, **1 hour**, **24 hours**, **7 days**, or **30 days** for **Time**, and click |image2| to view alarms of the specified time range.
+   -  Select **Last 30 minutes**, **1 hour**, **24 hours**, **7 days**, or **30 days** from the drop-down list, and click |image2| to view alarms of the specified time range.
    -  Select **All**, **High**, **Moderate**, or **Low** for **Risk Severity**. Alarms of specified severity are displayed in the list.
    -  Select an alarm type, and alarms of specified alarm type is displayed in the list.
 

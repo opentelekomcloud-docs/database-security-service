@@ -20,18 +20,21 @@ Prerequisites
 Procedure
 ---------
 
+#. Log in to the management console.
+
 #. In the navigation tree, choose **Rules**.
 
 #. In the **Instance** drop-down list, select an instance to add risky operations. Click the **Risky Operations** tab. Click **Add** above the risky operation list.
 
-#. On the **Add Risky Operation** page, set the basic information and client IP address, as shown in :ref:`Figure 1 <dbss_01_0192__fig161016109141>`. .
+#. On the **Add Risky Operation** page, set the basic information and client IP address. For details about related parameters, see :ref:`Table 1 <dbss_01_0192__table4295843716304>`.
 
-   .. _dbss_01_0192__fig161016109141:
 
    .. figure:: /_static/images/en-us_image_0000001531047000.png
       :alt: **Figure 1** Setting the basic information and client IP address
 
       **Figure 1** Setting the basic information and client IP address
+
+   .. _dbss_01_0192__table4295843716304:
 
    .. table:: **Table 1** Parameters
 
@@ -61,9 +64,8 @@ Procedure
       |                               | The IP address can be an IPv4 address (for example, 192.168.1.1) or an IPv6 address (for example, fe80:0000:0000:0000:0000:0000:0000:0000). |                       |
       +-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
-#. Set the operation type, operation object, and execution result, as shown in :ref:`Figure 2 <dbss_01_0192__fig18318125817371>`. For details about related parameters, see :ref:`Table 2 <dbss_01_0192__table1588718356449>`.
+#. Set the operation type, operation object, and execution result. For details about related parameters, see :ref:`Table 2 <dbss_01_0192__table1588718356449>`.
 
-   .. _dbss_01_0192__fig18318125817371:
 
    .. figure:: /_static/images/en-us_image_0000001127298856.png
       :alt: **Figure 2** Setting the operation type, operation object, and execution result
@@ -92,7 +94,7 @@ Procedure
       |                       | -  **Less than or equal to**                                                                                                                     |                       |
       +-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
-#. Click **Save**.
+#. Click **OK**.
 
 .. |image1| image:: /_static/images/en-us_image_0000001562224796.png
 .. |image2| image:: /_static/images/en-us_image_0000001561906096.png

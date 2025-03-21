@@ -25,32 +25,28 @@ Adding a Database
 
 #. Click **Add Database**.
 
-#. In the dialog box displayed, set the database information. In the dialog box displayed, set the database information, as shown in :ref:`Figure 1 <dbss_01_0186__fig425613335010>`. For details about related parameters, see :ref:`Table 1 <dbss_01_0186__table17265155610212>`.
+#. In the displayed dialog box, configure the database information.
 
-   .. _dbss_01_0186__fig425613335010:
 
    .. figure:: /_static/images/en-us_image_0000001347187761.png
       :alt: **Figure 1** Add Database dialog box
 
       **Figure 1** Add Database dialog box
 
-   .. _dbss_01_0186__table17265155610212:
-
    .. table:: **Table 1** Parameters
 
       +-----------------------+-------------------------------------------------------------+-----------------------+
-      | Parameter             | Description                                                 | Example               |
+      | Parameter             | Description                                                 | Example Value         |
       +=======================+=============================================================+=======================+
       | Database Type         | Supported database type. You can select RDS.                | RDS database          |
       +-----------------------+-------------------------------------------------------------+-----------------------+
-      | Database Type         | Supported database type. You can select GaussDB(for MySQL). | GaussDB(for MySQL)    |
+      | Type                  | Supported database type. You can select GaussDB(for MySQL). | GaussDB(for MySQL)    |
       |                       |                                                             |                       |
       |                       | You do not need to install an agent on the database.        |                       |
       +-----------------------+-------------------------------------------------------------+-----------------------+
 
-#. Click **OK**. Then a database in the **Disabled** state has been added to the database list. See :ref:`Figure 2 <dbss_01_0186__fig977312338295>`. You do not need to manually install an agent.
+#. Click **OK**. A database whose **Audit Status** is **Disabled** is added to the database list. You do not need to manually install the agent.
 
-   .. _dbss_01_0186__fig977312338295:
 
    .. figure:: /_static/images/en-us_image_0000001293789358.png
       :alt: **Figure 2** Successfully adding a database

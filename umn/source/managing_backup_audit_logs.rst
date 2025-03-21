@@ -16,27 +16,12 @@ Prerequisites
 Viewing Backup Audit Logs
 -------------------------
 
-#. View the backup audit log information. For details about related parameters, see :ref:`Table 1 <dbss_01_0197__table964761214306>`.
-
-   Click |image1| in the upper right corner of the list and select the start time and end time to view backup logs in a specified time range.
-
-   .. _dbss_01_0197__table964761214306:
-
-   .. table:: **Table 1** Parameters of audit logs
-
-      ============ ===============================================
-      Parameter    Description
-      ============ ===============================================
-      Log Name     Name of a log, which is automatically generated
-      Backup Time  Time when a log is backed up
-      File Size    Log file size
-      Backup Mode  Log backup mode.
-      Backup Scope Backup time window
-      Task Status  Backup status of a log
-      ============ ===============================================
+#. Log in to the management console.
+#. In the navigation tree on the left, choose **Settings**.
+#. In the **Instance** drop-down list, select the instance whose log template you want to view.
+#. Click the **Backup and Restoration** tab.
+#. View the backup audit log information.
 
    .. note::
 
       Locate the row that contains the log to be deleted, click **Delete** in the **Operation** column, and click **OK** in the displayed dialog box.
-
-.. |image1| image:: /_static/images/en-us_image_0000001147869404.png

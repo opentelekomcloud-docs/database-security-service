@@ -19,6 +19,8 @@ You have applied for a database audit instance and the **Status** is **Running**
 Procedure
 ---------
 
+#. Log in to the management console.
+
 #. In the navigation tree on the left, choose **Settings**.
 
 #. In the **Instance** drop-down list, select an instance to configure alarm notifications.
@@ -37,31 +39,41 @@ Procedure
 
    .. table:: **Table 1** Alarm notification parameters
 
-      +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Parameter                  | Description                                                                                                                                                | Example Value         |
-      +============================+============================================================================================================================================================+=======================+
-      | Message Notifications      | Enables or disables notifications.                                                                                                                         |                       |
-      +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Daily Alarm Notifications  | Total number of alarms allowed to be sent every day                                                                                                        | 30                    |
-      |                            |                                                                                                                                                            |                       |
-      |                            | .. important::                                                                                                                                             |                       |
-      |                            |                                                                                                                                                            |                       |
-      |                            |    NOTICE:                                                                                                                                                 |                       |
-      |                            |                                                                                                                                                            |                       |
-      |                            |    -  If the number of alarms exceeds this value on a day, no more notification will be sent on that day.                                                  |                       |
-      |                            |    -  There is no fixed time point for sending alarm notifications. The system collects statistics every 5 minutes and sends alarm notifications (if any). |                       |
-      +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Alarm Risk Severity        | Risk severity of the risk log. The options are as follows:                                                                                                 | High                  |
-      |                            |                                                                                                                                                            |                       |
-      |                            | -  **High**                                                                                                                                                |                       |
-      |                            | -  **Moderate**                                                                                                                                            |                       |
-      |                            | -  **Low**                                                                                                                                                 |                       |
-      +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | CPU Alarm Threshold (%)    | CPU alarm threshold of an audit instance. When the threshold is exceeded, an alarm notification is generated.                                              | 80                    |
-      +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Memory Alarm Threshold (%) | Memory alarm threshold of an audit instance. When the threshold is exceeded, an alarm notification is generated.                                           | 80                    |
-      +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Disk Alarm Threshold (%)   | Disk alarm threshold of an audit instance. When the threshold is exceeded, an alarm notification is generated.                                             | 80                    |
-      +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | Parameter                  | Description                                                                                                                                                                             | Example Value         |
+      +============================+=========================================================================================================================================================================================+=======================+
+      | Message Notifications      | Enables or disables notifications.                                                                                                                                                      | |image1|              |
+      +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | SMN Topic                  | Select an existing topic from the drop-down list or click **View Topic** and create an SMN topic on the displayed page for configuring the terminals for receiving alarm notifications. | ``-``                 |
+      |                            |                                                                                                                                                                                         |                       |
+      |                            | .. note::                                                                                                                                                                               |                       |
+      |                            |                                                                                                                                                                                         |                       |
+      |                            |    Before selecting a topic, ensure that the subscription status of the topic is **Confirmed**. Otherwise, alarm notifications may not be received.                                     |                       |
+      |                            |                                                                                                                                                                                         |                       |
+      |                            | For details about topics and subscriptions, see *Simple Message Notification User Guide*.                                                                                               |                       |
+      +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | Daily Alarm Notifications  | Total number of alarms allowed to be sent every day                                                                                                                                     | 30                    |
+      |                            |                                                                                                                                                                                         |                       |
+      |                            | .. important::                                                                                                                                                                          |                       |
+      |                            |                                                                                                                                                                                         |                       |
+      |                            |    NOTICE:                                                                                                                                                                              |                       |
+      |                            |                                                                                                                                                                                         |                       |
+      |                            |    -  If the number of alarms exceeds this value on a day, no more notification will be sent on that day.                                                                               |                       |
+      |                            |    -  There is no fixed time point for sending alarm notifications. The system collects statistics every 5 minutes and sends alarm notifications (if any).                              |                       |
+      +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | Alarm Risk Severity        | Risk severity of the risk log. The options are as follows:                                                                                                                              | High                  |
+      |                            |                                                                                                                                                                                         |                       |
+      |                            | -  **High**                                                                                                                                                                             |                       |
+      |                            | -  **Moderate**                                                                                                                                                                         |                       |
+      |                            | -  **Low**                                                                                                                                                                              |                       |
+      +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | CPU Alarm Threshold (%)    | CPU alarm threshold of an audit instance. When the threshold is exceeded, an alarm notification is generated.                                                                           | 80                    |
+      +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | Memory Alarm Threshold (%) | Memory alarm threshold of an audit instance. When the threshold is exceeded, an alarm notification is generated.                                                                        | 80                    |
+      +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | Disk Alarm Threshold (%)   | Disk alarm threshold of an audit instance. When the threshold is exceeded, an alarm notification is generated.                                                                          | 80                    |
+      +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
 #. Click **Apply**.
+
+.. |image1| image:: /_static/images/en-us_image_0000001880657541.png

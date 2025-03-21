@@ -9,12 +9,15 @@ Database Security Service - User Guide
    applying_for_a_database_audit_instance
    step_1_add_a_database
    step_2_enable_database_audit
-   step_3_view_audit_results/index
    adding_audit_scope
-   adding_an_sql_injection_rule
    enabling_or_disabling_sql_injection_detection
    adding_risky_operations
    configuring_privacy_data_protection_rules
+   sql_whitelist/index
+   viewing_sql_statement_details
+   viewing_session_distribution
+   viewing_the_audit_dashboard
+   viewing_audit_reports
    configuring_alarm_notifications
    viewing_the_system_monitoring
    viewing_the_alarms
@@ -32,3 +35,4 @@ Database Security Service - User Guide
    auditable_operations
    faqs/index
    best_practices/index
+   change_history

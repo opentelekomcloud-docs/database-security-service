@@ -18,9 +18,8 @@ Automatically Backing Up Database Audit Logs
 
 #. In the **Instance** drop-down list, select the required instance and click the **Backup and Restoration** tab.
 
-#. Click **Configure**. In the displayed dialog box, set the parameters, as shown in :ref:`Figure 1 <dbss_01_0226__en-us_topic_0145057228_fig559320113012>`. For details about related parameters, see :ref:`Table 1 <dbss_01_0226__en-us_topic_0145057228_table18602206309>`.
+#. Click **Set Automated Backup**. In the displayed dialog box, set the auto backup parameters. :ref:`Table 1 <dbss_01_0226__en-us_topic_0145057228_table18602206309>` describes the parameters.
 
-   .. _dbss_01_0226__en-us_topic_0145057228_fig559320113012:
 
    .. figure:: /_static/images/en-us_image_0000001294284718.png
       :alt: **Figure 1** Configure Automatic Backup dialog box

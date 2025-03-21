@@ -15,6 +15,8 @@ Prerequisites
 Procedure
 ---------
 
+#. Log in to the management console.
+
 #. In the navigation tree, choose **Rules**.
 
 #. In the **Instance** drop-down list, select the instance whose privacy data protection rule is to be configured.
@@ -32,6 +34,8 @@ Procedure
       You are advised to disable |image1|. After this function is disabled, database audit will not store the result sets of user SQL statements.
 
       Do not enable this function if you want to prepare for PCI DSS/PCI 3DS CSS certification.
+
+      **Note**: The result set storage supports only the database audit in agent mode.
 
    -  **Mask Privacy Data**
 
@@ -74,9 +78,9 @@ Perform the following steps to check whether a rule takes effect. The audit info
    .. _dbss_01_0266__fig10156628163415:
 
    .. figure:: /_static/images/en-us_image_0000001581444553.png
-      :alt: **Figure 2** Enabling privacy data protection
+      :alt: **Figure 2** Enabled rule
 
-      **Figure 2** Enabling privacy data protection
+      **Figure 2** Enabled rule
 
 #. Log in to the database as user **root** through the MySQL database client.
 
@@ -87,8 +91,6 @@ Perform the following steps to check whether a rule takes effect. The audit info
 #. In the navigation pane, choose **Dashboard**.
 
 #. In the navigation tree on the left, choose **Data Reports**. The **Data Reports** page is displayed.
-
-#. In the **Instance** drop-down list, select the instance whose SQL statement information you want to view. Click the **Statements** tab.
 
 #. Set filtering conditions to find the entered SQL statement.
 

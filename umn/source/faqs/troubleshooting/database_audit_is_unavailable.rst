@@ -22,13 +22,17 @@ In this case, perform the following operations to troubleshoot the problem:
 Checking Database Information and Audit Function Settings
 ---------------------------------------------------------
 
+#. Log in to the management console.
+
+#. Log in to the management console.
+
 #. Check whether the database information is correct.
 
-   -  If the database information is correct, go to :ref:`2 <dbss_01_0235__li941038153911>`.
+   -  If the database information is correct, go to :ref:`4 <dbss_01_0235__li941038153911>`.
    -  If the database information is incorrect, click **Delete** to delete the database, and then click **Add Database** to add the database again.
 
       -  If the fault is rectified, no further operation is required.
-      -  If the problem persists, go to :ref:`2 <dbss_01_0235__li941038153911>`.
+      -  If the problem persists, go to :ref:`4 <dbss_01_0235__li941038153911>`.
 
 #. .. _dbss_01_0235__li941038153911:
 

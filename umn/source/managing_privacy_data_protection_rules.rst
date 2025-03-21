@@ -10,8 +10,16 @@ You can view, enable, edit, disable, or delete data masking rules.
 Prerequisites
 -------------
 
+You have applied for a database audit instance and the **Status** is **Running**.
+
 Viewing Privacy Data Protection Rules
 -------------------------------------
+
+#. Log in to the management console.
+
+#. In the navigation tree, choose **Rules**.
+
+#. In the **Instance** drop-down list, select an instance to view its privacy data protection rule.
 
 #. View the rules. For details about related parameters, see :ref:`Table 1 <dbss_01_0267__table881122114911>`.
 
@@ -22,6 +30,8 @@ Viewing Privacy Data Protection Rules
          You are advised to disable |image1|. After this function is disabled, database audit will not store the result sets of user SQL statements.
 
          Do not enable this function if you want to prepare for PCI DSS/PCI 3DS CSS certification.
+
+         **Note**: The result set storage supports only the database audit in agent mode.
 
       -  **Mask Privacy Data**
 
