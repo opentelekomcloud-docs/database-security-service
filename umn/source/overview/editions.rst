@@ -16,6 +16,11 @@ Database audit provides starter, basic, professional, and advanced editions. You
    +-----------------------+-----------------------+----------------------------------------------------+
    | Edition               | Maximum Databases     | Performance                                        |
    +=======================+=======================+====================================================+
+   | Starter               | 1                     | -  Peak QPS: 1,000 queries/second                  |
+   |                       |                       | -  Database load rate: 1.2 million statements/hour |
+   |                       |                       | -  Stores 100 million online SQL statements.       |
+   |                       |                       | -  Stores 1.5 billion archived SQL statements.     |
+   +-----------------------+-----------------------+----------------------------------------------------+
    | Basic                 | 3                     | -  Peak QPS: 3,000 queries/second                  |
    |                       |                       | -  Database load rate: 3.6 million statements/hour |
    |                       |                       | -  Stores 400 million online SQL statements.       |

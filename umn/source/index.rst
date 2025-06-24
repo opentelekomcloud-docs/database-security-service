@@ -30,7 +30,6 @@ Database Security Service - User Guide
    managing_audit_reports
    managing_backup_audit_logs
    viewing_operation_logs
-   adding_a_database_instance_tag
    viewing_tracing_logs
    auditable_operations
    faqs/index

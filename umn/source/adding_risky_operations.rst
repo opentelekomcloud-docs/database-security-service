@@ -22,7 +22,7 @@ Procedure
 
 #. Log in to the management console.
 
-#. In the navigation tree, choose **Rules**.
+#. In the navigation tree on the left, choose **Audit Rules**.
 
 #. In the **Instance** drop-down list, select an instance to add risky operations. Click the **Risky Operations** tab. Click **Add** above the risky operation list.
 

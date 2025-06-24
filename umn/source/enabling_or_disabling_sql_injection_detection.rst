@@ -27,7 +27,7 @@ SQL injection detection is enabled by default. You can disable the detection rul
 
 #. Select a region, click |image1|, and choose **Security** > **Database Security Service**. The **Dashboard** page is displayed.
 
-#. In the navigation tree, choose **Rules**.
+#. In the navigation tree on the left, choose **Audit Rules**.
 
 #. In the **Instance** drop-down list, select the instance for which you want to disable SQL injection detection.
 

@@ -17,7 +17,7 @@ Procedure
 
 #. Log in to the management console.
 
-#. In the navigation tree, choose **Audit Rules**.
+#. In the navigation tree on the left, choose **Audit Rules**.
 
 #. In the **Instance** drop-down list, select the instance for which you want to view SQL injection detection. Click the **SQL Injection** tab.
 

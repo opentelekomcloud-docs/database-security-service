@@ -14,12 +14,13 @@ This section describes how to audit the security of a relational database instan
 
 .. note::
 
-   DBSS without agents is easy to configure and use, but the following functions are not supported:
+   -  DBSS without agents is easy to configure and use, but the following functions are not supported:
 
-   -  Successful and failed login sessions cannot be counted.
-   -  The port number of the client for accessing the database cannot be obtained.
+      -  Successful and failed login sessions cannot be counted.
+      -  The port number of the client for accessing the database cannot be obtained.
 
-   GaussDB(DWS) has the permission control policy for the log audit function. Only accounts and users with the **Security Administrator** permission can enable or disable the DWS database audit function.
+   -  GaussDB(DWS) has the permission control policy for the log audit function. Only accounts and users with the **Security Administrator** permission can enable or disable the DWS database audit function.
+   -  By default, DDL is disabled in GaussDB. You need to enable it by referring to the GaussDB user manual (audit_system_object = 130023423). In addition, ensure that the date format is yyyy-MM-dd HH:mm: ss+Z (datastyle=ISO,YMD) .
 
 Solution Architecture
 ---------------------
