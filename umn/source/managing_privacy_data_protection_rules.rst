@@ -17,7 +17,7 @@ Viewing Privacy Data Protection Rules
 
 #. Log in to the management console.
 
-#. In the navigation tree, choose **Rules**.
+#. In the navigation tree on the left, choose **Audit Rules**.
 
 #. In the **Instance** drop-down list, select an instance to view its privacy data protection rule.
 

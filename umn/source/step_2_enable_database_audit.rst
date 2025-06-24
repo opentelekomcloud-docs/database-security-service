@@ -18,7 +18,7 @@ Enabling Database Audit
 
 #. Select a database audit instance from the **Instance** drop-down list.
 
-#. In the database list, click **Enable** in the **Operation** column of the database you want to audit.
+#. In the **Operation** column of the database you want to audit, click **Enable**.
 
    The **Audit Status** of the database is **Enabled**. You do not need to restart the database.
 

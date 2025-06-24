@@ -17,7 +17,7 @@ Procedure
 
 #. Log in to the management console.
 
-#. In the navigation tree, choose **Rules**.
+#. In the navigation tree on the left, choose **Audit Rules**.
 
 #. In the **Instance** drop-down list, select the instance whose privacy data protection rule is to be configured.
 
