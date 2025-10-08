@@ -5,7 +5,7 @@
 Managing Risky Operations
 =========================
 
-After adding a risky operation, you can view the risk, enable, edit, disable, or delete the risky operation, or set its priority.
+More than 100 risk types are supported. After adding a risky operation, you can view the risk, enable, edit, disable, or delete the risky operation, or set its priority.
 
 Prerequisites
 -------------

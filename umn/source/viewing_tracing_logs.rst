@@ -12,7 +12,7 @@ Viewing a DBSS Trace on the CTS Console
 
 #. Log in to the management console.
 
-#. In the navigation pane on the left, click |image1| and choose **Management & Deployment** > **Cloud Trace Service**.
+#. In the navigation pane on the left, click |image1| and choose **Management & Governance** > **Cloud Trace Service**.
 
 #. Choose **Trace List** in the navigation pane.
 

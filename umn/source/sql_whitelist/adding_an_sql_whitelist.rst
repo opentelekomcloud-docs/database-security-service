@@ -30,7 +30,7 @@ Adding Scanned SQL Statements
 
    -  Add SQL statements in batches.
 
-      a. Select the target SQL statement and click **One-Clink Whitelisting**.
+      a. Select the target SQL statement and click **One-Click Whitelisting**.
       b. In the displayed dialog box, select the database and description of the target SQL statement.
       c. Click **OK**.
 
