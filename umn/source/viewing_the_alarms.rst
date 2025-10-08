@@ -34,39 +34,33 @@ Procedure
 
    .. table:: **Table 1** Parameters of alarms
 
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------+
-      | Parameter                         | Description                                                                                                 |
-      +===================================+=============================================================================================================+
-      | Time                              | Time when an alarm occurred.                                                                                |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------+
-      | Type                              | Alarm type. The options are as follows:                                                                     |
-      |                                   |                                                                                                             |
-      |                                   | -  Audit traffic exceeds threshold                                                                          |
-      |                                   | -  CPU exceptions                                                                                           |
-      |                                   | -  Memory exceptions                                                                                        |
-      |                                   | -  Disk exceptions                                                                                          |
-      |                                   | -  Insufficient audit log storage                                                                           |
-      |                                   | -  Log backup to OBS failed                                                                                 |
-      |                                   | -  Agent exceptions                                                                                         |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------+
-      | Alarm Risk Severity               | Risk severity of an alarm. The options are as follows:                                                      |
-      |                                   |                                                                                                             |
-      |                                   | -  **High**                                                                                                 |
-      |                                   | -  **Moderate**                                                                                             |
-      |                                   | -  **Low**                                                                                                  |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------+
-      | Cleared                           | Time when an alarm is cleared                                                                               |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------+
-      | Confirmed Or Not                  | Confirmation status of an alarm. Click |image1| to filter alarms in **Unconfirmed** or **Confirmed** state. |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------+
-      | Description                       | Description of an alarm                                                                                     |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------+
-
-   To query specified alarms, perform the following steps:
-
-   -  Select **Last 30 minutes**, **1 hour**, **24 hours**, **7 days**, or **30 days** from the drop-down list, and click |image2| to view alarms of the specified time range.
-   -  Select **All**, **High**, **Moderate**, or **Low** for **Risk Severity**. Alarms of specified severity are displayed in the list.
-   -  Select an alarm type, and alarms of specified alarm type is displayed in the list.
+      +-----------------------------------+--------------------------------------------------------+
+      | Parameter                         | Description                                            |
+      +===================================+========================================================+
+      | Time                              | Time when an alarm occurred.                           |
+      +-----------------------------------+--------------------------------------------------------+
+      | Type                              | Alarm type. The options are as follows:                |
+      |                                   |                                                        |
+      |                                   | -  Audit traffic exceeds threshold                     |
+      |                                   | -  CPU exceptions                                      |
+      |                                   | -  Memory exceptions                                   |
+      |                                   | -  Disk exceptions                                     |
+      |                                   | -  Insufficient audit log storage                      |
+      |                                   | -  Log backup to OBS failed                            |
+      |                                   | -  Agent exceptions                                    |
+      +-----------------------------------+--------------------------------------------------------+
+      | Alarm Risk Severity               | Risk severity of an alarm. The options are as follows: |
+      |                                   |                                                        |
+      |                                   | -  **High**                                            |
+      |                                   | -  **Moderate**                                        |
+      |                                   | -  **Low**                                             |
+      +-----------------------------------+--------------------------------------------------------+
+      | Cleared                           | Time when an alarm is cleared                          |
+      +-----------------------------------+--------------------------------------------------------+
+      | Confirmed Or Not                  | Confirmation status of an alarm.                       |
+      +-----------------------------------+--------------------------------------------------------+
+      | Description                       | Description of an alarm                                |
+      +-----------------------------------+--------------------------------------------------------+
 
 Follow-Up Procedure
 -------------------
@@ -74,6 +68,3 @@ Follow-Up Procedure
 .. note::
 
    You can select multiple alarms to be confirmed and click **Batch Confirm** to batch confirm alarms.
-
-.. |image1| image:: /_static/images/en-us_image_0214600463.png
-.. |image2| image:: /_static/images/en-us_image_0000001575677796.png

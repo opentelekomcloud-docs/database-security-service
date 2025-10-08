@@ -14,4 +14,4 @@ To check the alarms of database audit, perform the following steps:
    -  Select **All**, **High**, **Moderate**, or **Low** for **Risk Severity**. Alarms of specified severity are displayed in the list.
    -  Select an alarm type, and alarms of specified alarm type is displayed in the list.
 
-.. |image1| image:: /_static/images/en-us_image_0000001575677796.png
+.. |image1| image:: /_static/images/en-us_image_0000002291173653.png

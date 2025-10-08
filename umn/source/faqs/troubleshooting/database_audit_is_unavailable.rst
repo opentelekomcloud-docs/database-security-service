@@ -118,7 +118,7 @@ Checking the Security Group Rules of the Database Audit Instance
 
 #. Record the IP address of the agent node.
 
-   Click |image1| next to the database to view the information of its agent, and record **Installing Node IP Address**.
+   Click |image2| next to the database to view the information of its agent, and record **Installing Node IP Address**.
 
 #. Add an inbound rule for the installing node.
 
@@ -134,4 +134,5 @@ In your database, run an SQL statement on the node where the agent is installed,
 -  If the SQL statement is found, the problem has been solved.
 -  If the SQL statement is not found, the problem persists. Contact customer service.
 
-.. |image1| image:: /_static/images/en-us_image_0000001072223296.png
+.. |image1| image:: /_static/images/en-us_image_0000001074398929.png
+.. |image2| image:: /_static/images/en-us_image_0000001072223296.png

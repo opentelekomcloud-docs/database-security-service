@@ -34,10 +34,7 @@ Procedure
 
       **Figure 1** Querying SQL statements
 
-   To query a specified SQL statement, perform the following steps:
-
-   -  Select **All**, **Last 30 minutes**, **1 hour**, **24 hours**, **7 days**, or **30 days** for **Time** and click |image2| to view SQL statements of the specified time range.
-   -  Select **All**, **High**, **Moderate**, **Low**, or **Trusted** for **Risk Severity** and click |image3|. SQL statements of specified severity are displayed in the list.
+   -
 
       .. note::
 
@@ -98,5 +95,3 @@ Procedure
       +---------------------------------+----------------------------------------------------------------------------------+
 
 .. |image1| image:: /_static/images/en-us_image_0000001074398929.png
-.. |image2| image:: /_static/images/en-us_image_0000001625668645.png
-.. |image3| image:: /_static/images/en-us_image_0000001626494753.png
