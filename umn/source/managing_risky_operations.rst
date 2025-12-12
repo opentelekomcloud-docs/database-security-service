@@ -18,7 +18,7 @@ Sets the Priority of the Risky Operation
 ----------------------------------------
 
 #. Log in to the management console.
-#. In the navigation tree, choose **Rules**.
+#. In the navigation tree on the left, choose **Audit Rules**.
 #. In the **Instance** drop-down list, select an instance to set risky operation priority. Click the **Risky Operations** tab.
 #. In the **Operation** column of the desired risky operation, click **Set Priority**.
 #. In the displayed dialog box, select a priority and click **OK**.
@@ -28,7 +28,7 @@ Viewing the Risky Operation
 
 #. Log in to the management console.
 
-#. In the navigation tree, choose **Rules**.
+#. In the navigation tree on the left, choose **Audit Rules**.
 
 #. In the **Instance** drop-down list, select an instance to view risky operations.
 

@@ -25,7 +25,7 @@ Procedure
 
 #. Select a region, click |image1|, and choose **Security** > **Database Security Service**. The **Dashboard** page is displayed.
 
-#. In the navigation tree on the left, choose **Rules**.
+#. In the navigation tree on the left, choose **Audit Rules**.
 
 #. In the **Instance** drop-down list, select an instance to add audit scope.
 
@@ -72,9 +72,13 @@ Procedure
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Source IP Address     | (Optional) IP address or IP address range used for accessing the database to be audited                                            | ``-``                 |
       |                       |                                                                                                                                    |                       |
+      |                       | The entered IP address is not the IP address of the database selected in **Database Name**.                                        |                       |
+      |                       |                                                                                                                                    |                       |
       |                       | The IP address must be an internal IP address in IPv4 or IPv6 format.                                                              |                       |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Source Port           | (Optional) Port number used for accessing the database to be audited                                                               | ``-``                 |
+      |                       |                                                                                                                                    |                       |
+      |                       | The entered port number is not the port number of the database selected in **Database Name**.                                      |                       |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
 #. Click **OK**.

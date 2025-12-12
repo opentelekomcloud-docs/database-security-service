@@ -21,12 +21,12 @@ Procedure
 
 #. Select a region, click |image1|, and choose **Security** > **Database Security Service**. The **Dashboard** page is displayed.
 
-#. In the upper right corner of the page, click **Apply for Database Audit**.
+#. In the upper right corner, click **Apply for DBSS**.
 
-#. On the **Apply for Database Audit** page, select an **AZ** and a **Type**.
+#. On the **Apply for Database Audit** page, select an **AZ** and an **Edition**.
 
    -  **AZ**: If resources are sold out in an AZ, **Sold out in this AZ** will be displayed for the AZ. In this case, select another AZ.
-   -  **Type**: For details about the supported editions, see :ref:`Editions <dbss_01_0268>`.
+   -  **Edition**: For details about the supported editions, see :ref:`Editions <dbss_01_0268>`.
 
 #. Set database audit parameters. See :ref:`Table 1 <dbss_01_0185__table4295843716304>`.
 
@@ -37,7 +37,7 @@ Procedure
       +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Parameter             | Description                                                                                                                                                                                       | Example Value         |
       +=======================+===================================================================================================================================================================================================+=======================+
-      | VPC                   | You can select an existing VPC, or click **View VPC** to create one.                                                                                                                              | vpc-sec               |
+      | VPC                   | You can select an existing VPC, or click **Create VPC** to create one.                                                                                                                            | vpc-sec               |
       |                       |                                                                                                                                                                                                   |                       |
       |                       | .. note::                                                                                                                                                                                         |                       |
       |                       |                                                                                                                                                                                                   |                       |
@@ -46,15 +46,17 @@ Procedure
       |                       |                                                                                                                                                                                                   |                       |
       |                       | For more information about VPC, see *Virtual Private Cloud User Guide*.                                                                                                                           |                       |
       +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Security Group        | The security group configured for the instance is displayed on the page. Once a security group is selected for an instance, the instance is protected by the access rules of this security group. | sg                    |
-      |                       |                                                                                                                                                                                                   |                       |
-      |                       | For more information about security groups, see *Virtual Private Cloud User Guide*.                                                                                                               |                       |
-      +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Subnet                | The **Subnet** drop-down list displays all available subnets.                                                                                                                                     | public_subnet         |
       |                       |                                                                                                                                                                                                   |                       |
       |                       | For more information about subnets, see *Virtual Private Cloud User Guide*.                                                                                                                       |                       |
       +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | Security Group        | The security group configured for the instance is displayed on the page. Once a security group is selected for an instance, the instance is protected by the access rules of this security group. | sg                    |
+      |                       |                                                                                                                                                                                                   |                       |
+      |                       | For more information about security groups, see *Virtual Private Cloud User Guide*.                                                                                                               |                       |
+      +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Instance Name         | Custom name of the instance                                                                                                                                                                       | DBSS-test             |
+      |                       |                                                                                                                                                                                                   |                       |
+      |                       | The instance name can contain only letters, digits, underscores (_), and hyphens (-).                                                                                                             |                       |
       +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
 #. Confirm the configuration and click **Next**.
