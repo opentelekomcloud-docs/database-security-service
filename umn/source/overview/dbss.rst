@@ -16,7 +16,7 @@ Database audit provides the audit function in out-of-path mode for the following
 -  Databases built on ECS
 -  Databases built on BMS
 
-Database audit supports the following database types and versions.
+Database audit supports the following database types and versions, as shown in :ref:`Table 1 <dbss_01_0001__table1221454114112>`.
 
 .. _dbss_01_0001__table1221454114112:
 
@@ -25,7 +25,7 @@ Database audit supports the following database types and versions.
    +-----------------------------------+----------------------------------------+
    | Database Type                     | Edition                                |
    +===================================+========================================+
-   | GaussDB(for MySQL)                | MySQL 8.0                              |
+   | TaurusDB                          | MySQL 8.0                              |
    +-----------------------------------+----------------------------------------+
    | RDS for MySQL                     | -  5.6 (5.6.51.1 or later)             |
    |                                   | -  5.7 (5.7.29.2 or later)             |

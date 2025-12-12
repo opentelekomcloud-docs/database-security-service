@@ -70,12 +70,6 @@ Procedure
 
 #. Set the operation type, operation object, and execution result. For details about related parameters, see :ref:`Table 2 <dbss_01_0192__table1588718356449>`.
 
-
-   .. figure:: /_static/images/en-us_image_0000001127298856.png
-      :alt: **Figure 2** Setting the operation type, operation object, and execution result
-
-      **Figure 2** Setting the operation type, operation object, and execution result
-
    .. _dbss_01_0192__table1588718356449:
 
    .. table:: **Table 2** Parameters

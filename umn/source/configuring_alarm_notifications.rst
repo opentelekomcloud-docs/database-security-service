@@ -29,12 +29,6 @@ Procedure
 
 #. Set alarm notifications. For details about related parameters, see :ref:`Table 1 <dbss_01_0239__table29461252153613>`.
 
-
-   .. figure:: /_static/images/en-us_image_0000001173357101.png
-      :alt: **Figure 1** Configuring alarm notifications
-
-      **Figure 1** Configuring alarm notifications
-
    .. _dbss_01_0239__table29461252153613:
 
    .. table:: **Table 1** Alarm notification parameters
@@ -42,7 +36,9 @@ Procedure
       +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Parameter                  | Description                                                                                                                                                                             | Example Value         |
       +============================+=========================================================================================================================================================================================+=======================+
-      | Message Notifications      | Enables or disables notifications.                                                                                                                                                      | |image1|              |
+      | Alarm Notifications        | Status of the alarm notification function By default, **Alarm Notifications** is enabled for database audit. You will receive an email when a configured alarm is triggered.            | ``-``                 |
+      +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | Alarm Mode                 | Email notifications are supported currently.                                                                                                                                            | Email Notifications   |
       +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | SMN Topic                  | Select an existing topic from the drop-down list or click **View Topic** and create an SMN topic on the displayed page for configuring the terminals for receiving alarm notifications. | ``-``                 |
       |                            |                                                                                                                                                                                         |                       |
@@ -75,5 +71,3 @@ Procedure
       +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
 #. Click **Apply**.
-
-.. |image1| image:: /_static/images/en-us_image_0000001880657541.png

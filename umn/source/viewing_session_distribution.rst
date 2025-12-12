@@ -18,6 +18,7 @@ Procedure
 
 #. Log in to the management console.
 #. Select a region, click |image1|, and choose **Security** > **Database Security Service**. The **Dashboard** page is displayed.
+#. In the navigation tree on the left, choose **Data Reports**. The **Data Reports** page is displayed.
 #. In the **Instance** drop-down list, select the instance whose session information you want to view.
 #. Click the **Sessions** tab.
 #. View the session distribution chart.

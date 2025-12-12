@@ -35,15 +35,15 @@ Adding a Database
 
    .. table:: **Table 1** Parameters
 
-      +-----------------------+-------------------------------------------------------------+-----------------------+
-      | Parameter             | Description                                                 | Example Value         |
-      +=======================+=============================================================+=======================+
-      | Database Type         | Supported database type. You can select RDS.                | RDS database          |
-      +-----------------------+-------------------------------------------------------------+-----------------------+
-      | Type                  | Supported database type. You can select GaussDB(for MySQL). | GaussDB(for MySQL)    |
-      |                       |                                                             |                       |
-      |                       | You do not need to install an agent on the database.        |                       |
-      +-----------------------+-------------------------------------------------------------+-----------------------+
+      +-----------------------+------------------------------------------------------+-----------------------+
+      | Parameter             | Description                                          | Example Value         |
+      +=======================+======================================================+=======================+
+      | Database Type         | Supported database type. You can select RDS.         | RDS database          |
+      +-----------------------+------------------------------------------------------+-----------------------+
+      | Type                  | Supported database type. You can select TaurusDB.    | TaurusDB              |
+      |                       |                                                      |                       |
+      |                       | You do not need to install an agent on the database. |                       |
+      +-----------------------+------------------------------------------------------+-----------------------+
 
 #. Click **OK**. A database whose **Audit Status** is **Disabled** is added to the database list. You do not need to manually install the agent.
 
