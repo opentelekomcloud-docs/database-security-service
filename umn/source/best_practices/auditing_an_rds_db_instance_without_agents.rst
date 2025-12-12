@@ -25,7 +25,7 @@ This section describes how to audit the security of a relational database instan
 Solution Architecture
 ---------------------
 
-The DBSS instance receives the logs sent from databases, such as certain GaussDB(for MySQL) or RDS for MySQL versions, and saves the logs to its log library for security analysis, aggregation statistics, and compliance analysis.
+The DBSS instance receives the logs sent from databases, such as certain TaurusDB or RDS for MySQL versions, and saves the logs to its log library for security analysis, aggregation statistics, and compliance analysis.
 
 
 .. figure:: /_static/images/en-us_image_0000001438417909.png
@@ -33,19 +33,19 @@ The DBSS instance receives the logs sent from databases, such as certain GaussDB
 
    **Figure 1** Auditing an RDS DB instance (without agents)
 
-Take the :ref:`GaussDB(for MySQL) <dbss_06_0020__en-us_topic_0000001438668561_table79614220126>` database as an example. Assume you need to locate and track internal violations and improper operations in the database to meet compliance requirements. This section describes how to enable the database audit function and check audit results.
+Take the TaurusDB database as an example. For details, see :ref:`Table 2 <dbss_06_0020__en-us_topic_0000001438668561_table79614220126>`. Assume you need to locate and track internal violations and improper operations in the database to meet compliance requirements. This section describes how to enable the database audit function and check audit results.
 
 .. _dbss_06_0020__en-us_topic_0000001438668561_table79614220126:
 
 .. table:: **Table 1** Database example
 
-   ============= ==================
+   ============= =============
    Database Type RDS database
-   Database Type GaussDB(for MySQL)
+   Database Type TaurusDB
    Version       MySQL 8.0
    IP Address    192.168.0.237
    Database Port 3306
-   ============= ==================
+   ============= =============
 
 Limitations and Constraints
 ---------------------------
@@ -107,13 +107,12 @@ You can check audit results on the dashboard page, or generate, preview, or down
 
    e. Click **OK**.
 
-      The **Reports** page will be displayed. You can view the report status on this page. After a report is generated, you can click **Preview** or choose **More** > **Download**. See :ref:`Figure 2 <dbss_06_0020__en-us_topic_0000001438668561_en-us_topic_0252967583_fig17206172612245>`.
+      The **Reports** page will be displayed. You can view the report status on this page. After a report is generated, you can click **Preview** or choose **More** > **Download**.
 
       .. important::
 
          To preview a report online, use Google Chrome or Mozilla FireFox.
 
-      .. _dbss_06_0020__en-us_topic_0000001438668561_en-us_topic_0252967583_fig17206172612245:
 
       .. figure:: /_static/images/en-us_image_0000001560437302.png
          :alt: **Figure 2** Previewing or downloading an audit report

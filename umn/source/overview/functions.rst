@@ -20,7 +20,7 @@ Database audit delivers functions such as user behavior detection and audit, mul
 
    -  Session analysis
 
-      Conducts analysis based on time, user, IP address, and client.
+      Conducts analysis based on time, database user, and client.
 
    -  Statement analysis
 

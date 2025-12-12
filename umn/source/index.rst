@@ -13,7 +13,6 @@ Database Security Service - User Guide
    enabling_or_disabling_sql_injection_detection
    adding_risky_operations
    configuring_privacy_data_protection_rules
-   sql_whitelist/index
    viewing_sql_statement_details
    viewing_session_distribution
    viewing_the_audit_dashboard

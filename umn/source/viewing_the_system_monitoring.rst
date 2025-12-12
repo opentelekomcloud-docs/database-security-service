@@ -24,7 +24,7 @@ Procedure
 
 #. View the system monitoring information.
 
-   Select **Last 30 minutes**, **1 hour**, **24 hours**, **7 days**, or **30 days**, or click |image1| to customize start time and end time to view the system monitoring information of the specified time range.
+   Select **Last 30 minutes**, **1 hour**, **7 days**, or **30 days**, or click |image1| to customize start time and end time to view the system monitoring information of the specified time range.
 
 
    .. figure:: /_static/images/en-us_image_0000001127160302.png

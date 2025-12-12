@@ -10,7 +10,7 @@ Database audit is subject to certain constraints.
 Supported Database Types
 ------------------------
 
-The following types of databases on the management console can be audited in out-of-path mode:
+Database audit provides the audit function in out-of-path mode for the following databases on the management console:
 
 -  Relational Database Service (RDS)
 -  Databases built on ECS
@@ -26,7 +26,7 @@ The following database versions can be audited.
    +-----------------------------------+----------------------------------------+
    | Database Type                     | Edition                                |
    +===================================+========================================+
-   | GaussDB(for MySQL)                | MySQL 8.0                              |
+   | TaurusDB                          | MySQL 8.0                              |
    +-----------------------------------+----------------------------------------+
    | RDS for MySQL                     | -  5.6 (5.6.51.1 or later)             |
    |                                   | -  5.7 (5.7.29.2 or later)             |

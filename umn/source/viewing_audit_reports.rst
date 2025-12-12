@@ -53,6 +53,8 @@ You can generate reports immediately or periodically. You can also customize the
 
 #. Select a region, click |image1|, and choose **Security** > **Database Security Service**. The **Dashboard** page is displayed.
 
+#. In the navigation tree on the left, choose **Reports**.
+
 #. In the **Instance** drop-down list, select the instance whose instance report you want to generate.
 
 #. Click the **Report Management** tab.
@@ -85,18 +87,18 @@ You can generate reports immediately or periodically. You can also customize the
 
 #. In the **Instance** drop-down list, select the instance for which you want to set a report task.
 
-#. Locate the target template and click **Schedule Task** in the **Operation** column, as shown in :ref:`Figure 3 <dbss_01_0248__fig17220135462>`.
+#. Click the **Report Management** tab.
 
-   .. _dbss_01_0248__fig17220135462:
+#. Locate the target template and click **Schedule Task** in the **Operation** column.
+
 
    .. figure:: /_static/images/en-us_image_0000001530872056.png
       :alt: **Figure 3** Setting a task
 
       **Figure 3** Setting a task
 
-#. In the displayed dialog box, set the parameters of the scheduled task, as shown in :ref:`Figure 4 <dbss_01_0248__fig11222737469>`. For details about related parameters, see :ref:`Table 2 <dbss_01_0248__table7222934463>`.
+#. In the displayed dialog box, set the parameters of the scheduled task. For details about related parameters, see :ref:`Table 2 <dbss_01_0248__table7222934463>`.
 
-   .. _dbss_01_0248__fig11222737469:
 
    .. figure:: /_static/images/en-us_image_0000001531037008.png
       :alt: **Figure 4** Setting a scheduled task
@@ -162,9 +164,8 @@ Before previewing or downloading an audit report, ensure that its **Status** is 
 
 #. In the **Instance** drop-down list, select the instance whose report you want to preview or download.
 
-#. Locate the target template, and click **Preview** or **More** > **Download** in the **Operation** column to preview or download the report. See :ref:`Figure 5 <dbss_01_0248__fig161171357132716>`..
+#. Locate the target template, and click **Preview** or **More** > **Download** in the **Operation** column to preview or download the report.
 
-   .. _dbss_01_0248__fig161171357132716:
 
    .. figure:: /_static/images/en-us_image_0000001581439873.png
       :alt: **Figure 5** Previewing or downloading an audit report
